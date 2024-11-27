@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
             Hello! I'm <strong className="main-name">Ayamne Hajjam</strong>
               <br />
-              <br/>I'm a full stack developer with a passion for creating digital solutions.
+              <br/>-I'm a full stack developer with a passion for creating digital solutions.
               I completed my studies in digital development at OFPPT, where I honed my skills
               and expanded my knowledge of the latest technologies and trends in the field.
               <br/>I have experience in both fields frontend and backend. My goal is to craft
