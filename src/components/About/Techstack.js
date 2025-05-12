@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiHtml5,
   DiCss3,
@@ -13,50 +12,31 @@ import {
   DiPython,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiSpringboot,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
+  const techs = [
+    { icon: <DiHtml5 />, label: "HTML" },
+    { icon: <DiCss3 />, label: "CSS" },
+    { icon: <DiBootstrap />, label: "Bootstrap" },
+    { icon: <DiJavascript1 />, label: "JavaScript" },
+    { icon: <DiNodejs />, label: "Node js" },
+    { icon: <DiReact />, label: "React js" },
+    { icon: <DiPhp />, label: "PHP" },
+    { icon: <DiLaravel />, label: "Laravel" },
+    { icon: <SiSpringboot />, label: "Spring Boot" },
+    { icon: <DiPython />, label: "Python" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiLaravel />
-      </Col>  
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      
+      {techs.map((tech, index) => (
+        <Col xs={4} md={2} className="tech-icons text-center" key={index}>
+          {tech.icon}
+          <div style={{ fontSize: "0.9rem", marginTop: "5px" }}>{tech.label}</div>
+        </Col>
+      ))}
     </Row>
   );
 }

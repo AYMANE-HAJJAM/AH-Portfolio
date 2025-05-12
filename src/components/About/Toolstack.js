@@ -1,40 +1,25 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJira,
-  DiGithub,
-  DiMongodb,
-  DiGit,
-} from "react-icons/di";
-import { TbBrandGolang } from "react-icons/tb";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-} from "react-icons/si";
+import { DiJira, DiGithub, DiMongodb, DiGit } from "react-icons/di";
+import { SiPostman } from "react-icons/si";
 
 function Toolstack() {
+  const tools = [
+    { icon: <DiGit />, label: "Git" },
+    { icon: <DiGithub />, label: "GitHub" },
+    { icon: <DiMongodb />, label: "MongoDB" },
+    { icon: <DiJira />, label: "Jira" },
+    { icon: <SiPostman />, label: "Postman" },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJira />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      
+      {tools.map((tool, idx) => (
+        <Col xs={4} md={2} className="tech-icons text-center" key={idx}>
+          {tool.icon}
+          <div style={{ fontSize: "0.9rem", marginTop: "5px" }}>{tool.label}</div>
+        </Col>
+      ))}
     </Row>
   );
 }
