@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AH-Portfolio/static/css/main.59779a18.css",
-    "main.js": "/AH-Portfolio/static/js/main.7b937f20.js",
+    "main.css": "/AH-Portfolio/static/css/main.43f477ba.css",
+    "main.js": "/AH-Portfolio/static/js/main.062231c6.js",
     "static/js/415.4d6acbeb.chunk.js": "/AH-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/AH-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Amsadesign.png": "/AH-Portfolio/static/media/Amsadesign.c0fa1099c418e3c01bb2.png",
@@ -13,13 +13,13 @@
     "static/media/avatar.svg": "/AH-Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/AH-Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/AH-Portfolio/index.html",
-    "main.59779a18.css.map": "/AH-Portfolio/static/css/main.59779a18.css.map",
-    "main.7b937f20.js.map": "/AH-Portfolio/static/js/main.7b937f20.js.map",
+    "main.43f477ba.css.map": "/AH-Portfolio/static/css/main.43f477ba.css.map",
+    "main.062231c6.js.map": "/AH-Portfolio/static/js/main.062231c6.js.map",
     "415.4d6acbeb.chunk.js.map": "/AH-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/AH-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59779a18.css",
-    "static/js/main.7b937f20.js"
+    "static/css/main.43f477ba.css",
+    "static/js/main.062231c6.js"
   ]
 }
