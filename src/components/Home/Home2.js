@@ -19,7 +19,7 @@ function Home2() {
                <span className="purple"> Who Am I </span> 
             </h4>
             <p className="home-about-body">
-            Hello! I'm <strong className="main-name">Ayamne Hajjam</strong>
+            Hello! I'm <strong className="main">Ayamne Hajjam</strong>
               <br />
               <br/>I'm a full stack developer with a passion for creating digital solutions.
               I completed my studies in digital development at OFPPT, where I honed my skills

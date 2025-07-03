@@ -281,7 +281,22 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ff6b6b, #5f27cd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-name:hover {
+  transform: scale(1.1);
+  text-shadow: 0px 0px 10px rgba(255, 107, 107, 0.4);
+}
+
+.main {
+  color: #cd5ff8 !important;
 }
 
 .Typewriter__wrapper {
@@ -575,6 +590,7 @@ button:focus {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  background-color: #c95bf5 !important;
 }
 .tech-icon-images {
   padding: 20px !important;

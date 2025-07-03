@@ -32,9 +32,9 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {techs.map((tech, index) => (
-        <Col xs={4} md={2} className="tech-icons text-center" key={index}>
-          {tech.icon}
-          <div style={{ fontSize: "0.9rem", marginTop: "5px" }}>{tech.label}</div>
+        <Col xs={3} md={2} className="tech-icons text-center" key={index}>
+          <div style={{ fontSize: "3rem" }}>{tech.icon}</div>
+          <div style={{ fontSize: "0.9rem", marginTop: "2px" }}>{tech.label}</div>
         </Col>
       ))}
     </Row>
