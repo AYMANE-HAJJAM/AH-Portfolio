@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJira, DiGithub, DiMongodb, DiGit } from "react-icons/di";
+import { DiJira, DiGithub, DiDocker, DiGit } from "react-icons/di";
 import { SiPostman } from "react-icons/si";
 
 function Toolstack() {
   const tools = [
     { icon: <DiGit />, label: "Git" },
     { icon: <DiGithub />, label: "GitHub" },
-    { icon: <DiMongodb />, label: "MongoDB" },
+    { icon: <DiDocker />, label: "Docker" },
     { icon: <DiJira />, label: "Jira" },
     { icon: <SiPostman />, label: "Postman" },
   ];
