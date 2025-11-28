@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/AH-Portfolio/static/css/main.43f477ba.css",
-    "main.js": "/AH-Portfolio/static/js/main.062231c6.js",
-    "static/js/415.4d6acbeb.chunk.js": "/AH-Portfolio/static/js/415.4d6acbeb.chunk.js",
-    "static/js/787.1ed0c42c.chunk.js": "/AH-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/AH-Portfolio/static/css/main.ce4a40f8.css",
+    "main.js": "/AH-Portfolio/static/js/main.b9d898e4.js",
+    "static/js/453.318a2f52.chunk.js": "/AH-Portfolio/static/js/453.318a2f52.chunk.js",
     "static/media/Amsadesign.png": "/AH-Portfolio/static/media/Amsadesign.c0fa1099c418e3c01bb2.png",
-    "static/media/Acadevo.png": "/AH-Portfolio/static/media/Acadevo.2328959cd06a3a4f3155.png",
-    "static/media/cv.pdf": "/AH-Portfolio/static/media/cv.fbea133ad552056e2c0d.pdf",
+    "static/media/DigiAssistant.png": "/AH-Portfolio/static/media/DigiAssistant.3ce94161c68845aad2e8.png",
+    "static/media/Docuscan.png": "/AH-Portfolio/static/media/Docuscan.ccd7e99c41cdc59233d4.png",
+    "static/media/cv.pdf": "/AH-Portfolio/static/media/cv.59bb2fd5795a75d99748.pdf",
     "static/media/home-main.svg": "/AH-Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/AH-Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/home-bg.jpg": "/AH-Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/AH-Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/AH-Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/AH-Portfolio/index.html",
-    "main.43f477ba.css.map": "/AH-Portfolio/static/css/main.43f477ba.css.map",
-    "main.062231c6.js.map": "/AH-Portfolio/static/js/main.062231c6.js.map",
-    "415.4d6acbeb.chunk.js.map": "/AH-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
-    "787.1ed0c42c.chunk.js.map": "/AH-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.ce4a40f8.css.map": "/AH-Portfolio/static/css/main.ce4a40f8.css.map",
+    "main.b9d898e4.js.map": "/AH-Portfolio/static/js/main.b9d898e4.js.map",
+    "453.318a2f52.chunk.js.map": "/AH-Portfolio/static/js/453.318a2f52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43f477ba.css",
-    "static/js/main.062231c6.js"
+    "static/css/main.ce4a40f8.css",
+    "static/js/main.b9d898e4.js"
   ]
 }
